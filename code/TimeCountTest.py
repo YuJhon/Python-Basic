@@ -20,7 +20,7 @@ __mtime__ = '2018/5/5'
                   ┗┻┛  ┗┻┛
 """
 
-import TimeCount as tc
+from code import TimeCount as tc
 
 t1 = tc.TimeCounter()
 print(t1)

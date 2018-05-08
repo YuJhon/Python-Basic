@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from random import randint
-from time import ctime,sleep
 from queue import Queue
-from MyThread import MyThread
+from random import randint
+from time import ctime, sleep
+
+from code.MyThread import MyThread
+
 
 def writeQ(queue):
 	print("producing object for Q...")
