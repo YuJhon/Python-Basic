@@ -5,7 +5,7 @@ from queue import Queue
 from random import randint
 from time import ctime, sleep
 
-from code.MyThread import MyThread
+from code.basic.MyThread import MyThread
 
 
 def writeQ(queue):
