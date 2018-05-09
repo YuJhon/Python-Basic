@@ -146,7 +146,7 @@ def main():
 	printf('\t(%d users moved) from (%d) to (%d)' % (num,fr,to))
 	orm.dbDump()
 
-	printf('\n*** Randomly delete grop')
+	printf('\n*** Randomly delete group')
 	rm,num = orm.delete()
 	printf('\t(group #%d; %d users removed)' % (rm, num))
 	orm.dbDump()
